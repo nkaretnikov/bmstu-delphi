@@ -1,4 +1,4 @@
-// Compute (max(X,Y+W, Y-W))^2 - Y^3 * W
+// Compute (max(X, Y+W, Y-W))^2 - Y^3 * W
 
 uses Math;
 
