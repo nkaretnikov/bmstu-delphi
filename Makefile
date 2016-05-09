@@ -1,4 +1,6 @@
-targets=ex3a ex3b ex4a-incorrect-task-interpretation
+targets=ex3a ex3b \
+	ex4a-incorrect-task-interpretation \
+	ex4a-repeat
 
 .PHONY: all clean
 all:
