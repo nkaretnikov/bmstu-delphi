@@ -1,4 +1,4 @@
-targets=ex3a
+targets=ex3a ex3b
 
 .PHONY: all clean
 all:
