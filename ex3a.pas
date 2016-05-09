@@ -16,7 +16,7 @@ end;
 // Rotate a 'Point' clockwise.
 function rotateCW(p: Point; angle: Integer): Point;
 var
-  x, y : Double;
+  x, y: Double;
 begin
   x := p.x * cos(-angle) - p.y * sin(-angle);
   y := p.y * cos(-angle) + p.x * sin(-angle);
@@ -28,7 +28,7 @@ end;
 // Check whether a 'Point' is in bounds or not.
 function inBounds(p: Point): Boolean;
 // 1/2 of a side of the original square (rotated by 45 degrees)
-var a : Double;
+var a: Double;
 begin
   a := sqrt(2) / 2;
   if ((-a <= p.x) and (p.x <= a) and
@@ -47,9 +47,9 @@ end;
 var p: Point;
 begin
   Writeln('Enter two real numbers:');
-  Write('X: ');
+  Write('x: ');
   Readln(p.x);
-  Write('Y: ');
+  Write('y: ');
   Readln(p.y);
   inBounds_(rotateCW(p, 45));
 end.
