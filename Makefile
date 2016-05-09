@@ -1,9 +1,9 @@
-targets=
+targets=ex3a
 
 .PHONY: all clean
 all:
 	for target in $(targets); do \
-		fpc $$target; \
+		fpc -Mdelphi $$target; \
 	done
 
 clean:
