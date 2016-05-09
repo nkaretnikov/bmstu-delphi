@@ -27,7 +27,8 @@ end;
 
 // Check whether a 'Point' is in bounds or not.
 function inBounds(p: Point): Boolean;
-// 1/2 of a side of the original square (rotated by 45 degrees)
+// Half of the diagonal of the original square (or half of the side of the
+// rotated one).
 var a: Double;
 begin
   a := sqrt(2) / 2;
