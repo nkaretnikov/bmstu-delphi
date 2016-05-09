@@ -1,3 +1,11 @@
+(*
+Task: given a square with angles at (1,0), (0,1), (-1,0), and (0,-1), determine
+whether a point belongs to it or not.
+
+Solution: rotate the point by 45 degrees and see whether it belongs to the
+rotated square.  The diagonal of the original square (or the side of the rotated
+one) is sqrt(2).
+*)
 program ex3a;
 
 type Point = record
