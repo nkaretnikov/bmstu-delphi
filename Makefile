@@ -1,7 +1,8 @@
 targets=ex3a ex3b \
 	ex4a-incorrect-task-interpretation \
 	ex4a-repeat ex4a-while \
-	ex5
+	ex5 \
+	ex6b
 
 .PHONY: all clean
 all:
