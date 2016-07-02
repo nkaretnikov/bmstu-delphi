@@ -11,7 +11,4 @@ matrix =
 main = do
   print matrix
 
-  print $ map snd $
-    sortBy (comparing fst) $
-      (<$> matrix) $ \row ->
-        (minimum row, row)
+  print $ sortBy (comparing minimum) matrix
