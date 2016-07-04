@@ -1,0 +1,14 @@
+% ./ex4a-while
+Enter a natural number:
+10
+1
+
+% ./ex4a-while
+Enter a natural number:
+1234
+4321
+
+% ./ex4a-while
+Enter a natural number:
+42
+24
