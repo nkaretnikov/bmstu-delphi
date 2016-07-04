@@ -7,7 +7,8 @@ targets=ex3a ex3b \
 	ex10b \
 	ex12 \
 	ex14 \
-	ex15
+	ex15 \
+	ex16
 
 .PHONY: all clean
 all:
