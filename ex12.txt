@@ -1,0 +1,10 @@
+% ./ex12
+
+% cat F.txt
+One morning, when Gregor Samsa woke from troubled dreams, he
+found himself transformed in his bed into a horrible vermin.
+
+% cat G.txt
+he
+in
+a
