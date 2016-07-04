@@ -1,0 +1,4 @@
+f value: 42.1234
+frac digits: 4.00
+fset average: 17.41
+fset average frac digits: 2.00
