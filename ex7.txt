@@ -1,0 +1,21 @@
+% ./ex7
+A quick brown fox jumps over the lazy dog
+
+% ./ex7
+vok voK Vok VoK VOK
+VoK
+VOK
+
+% ./ex7
+A quick brown VOK jumps over vok lazy VoK
+VOK
+VoK
+
+% ./ex7
+V VuicK VrowK VOK Vumpk oVOK vok VOKK VoK VK
+VuicK
+VrowK
+VOK
+VOKK
+VoK
+VK
