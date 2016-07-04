@@ -1,0 +1,17 @@
+% ./ex3a
+Enter two real numbers:
+x: 0.6
+y: 0.6
+Out of bounds
+
+% ./ex3a
+Enter two real numbers:
+x: 0.5
+y: 0.5
+In bounds
+
+% ./ex3a
+Enter two real numbers:
+x: 0.45
+y: 0.55
+In bounds
